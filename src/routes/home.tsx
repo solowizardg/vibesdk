@@ -207,6 +207,13 @@ export default function Home() {
 						<h1 className="text-shadow-sm text-shadow-red-200 dark:text-shadow-red-900 text-accent font-medium leading-[1.1] tracking-tight text-5xl w-full mb-4 bg-clip-text bg-gradient-to-r from-text-primary to-text-primary/90">
 							What should we build today?
 						</h1>
+						<button
+							type="button"
+							onClick={() => navigate('/vibe-wix')}
+							className="mb-4 text-sm px-3 py-1.5 rounded-md border border-accent/40 text-accent hover:bg-accent/10 transition-colors self-start"
+						>
+							Open Vibe-Wix starter
+						</button>
 
 						<form
 							method="POST"
